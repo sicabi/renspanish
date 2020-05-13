@@ -17,6 +17,5 @@ granos.mex <- ggplot(data = granos, mapping = aes(x = Kilogramos, y = Grano)) +
              caption = "Fuente: Elaboración con ggplot a partir de la información 
              de FAOSTAT, 2019.")
 ggsave(filename = "granos_mex.jpg", plot = granos.mex, device = "jpeg", 
-       path = "output/img/", dpi = "print", units = "cm", 
-       width = 12, height = 8)
+       path = "output/img/", dpi = "print")
 
